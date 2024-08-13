@@ -19,5 +19,15 @@ console.log("Fin del ciclo do while");
 for(let contando = 0; contando < 3; contando++){
     console.log(contando);
 }
-
 console.log("Fin del ciclo for");
+
+//para reservaa break
+for(let contando = 0; contando <= 10; contando++){
+    if(contando % 2 == 0){
+        console.log(contando);//muestra todos los pares
+        break; 
+    }
+    
+}
+console.log("Fin del ciclo for al encontrar el primer numero par");
+
