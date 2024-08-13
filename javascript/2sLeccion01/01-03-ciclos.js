@@ -31,3 +31,13 @@ for(let contando = 0; contando <= 10; contando++){
 }
 console.log("Fin del ciclo for al encontrar el primer numero par");
 
+//palabra reservada continue
+for(let contando = 0; contando <= 10; contando++){
+    if(contando % 2 !== 0){
+        continue; // ir a la siguiente iteracion
+    }
+    console.log(contando);
+}
+
+console.log("Fin del ciclo for al encontrar el primer numero par");
+
