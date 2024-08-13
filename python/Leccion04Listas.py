@@ -62,3 +62,18 @@ print(nombres)
 #Eliminar la lista
 del nombres
 
+#Definimos una tupla
+cocina =('cuchara','cuchillo' , 'tenedor')
+print(len(cocina))
+
+#Acceder a un elemento , para esto utilizamos corchetes no parentesis
+print(cocina[0])
+#mostrar de manera inversa
+print(cocina[-1])
+
+#Acceder a un rango
+print(cocina[0:2])
+
+#Ejemplo
+verduras = ('papa',) # una tupla nesecita aunque sea de un elemento la coma
+# de lo contrario solo eria un tipo str cadena

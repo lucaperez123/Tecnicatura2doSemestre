@@ -45,3 +45,7 @@ for i in range(3,11,2):
     print(i)
 
 #Probando rama python
+
+#Definimos una tupla
+cocina =('cuchara','cuchillo' , 'tenedor')
+print(len(cocina))
