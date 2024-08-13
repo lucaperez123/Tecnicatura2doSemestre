@@ -29,3 +29,36 @@ for nombre in nombres: #nombre es singular, la lista es plural
 else:
     print('Se acabaron los elementos de la lista')
 
+
+#Preguntamos cuantos elementos tiene
+print(len(nombres)) # le pasamos como parametro la lista
+
+#Agregamos un elemento
+nombres.append('Marcelo') # funcion append que agrega un elemento a la lista
+print(nombres)
+
+# insetar un elemento en un indice especifico
+nombres.insert(1,'Alberto')
+print(nombres)
+nombres.insert(3,'Debora')
+print(nombres)
+
+#Eliminamos un elemento
+nombres.remove('Alberto')
+print(nombres)
+
+#Eliminar el ultimo elemento
+nombres.pop()
+print(nombres)
+
+#Eliminar un indice especifico
+del nombres[2] # del significa delete(Eliminar)
+print(nombres)
+
+#eliminar, borrar o limpiar todos los elementos
+nombres.clear()
+print(nombres)
+
+#Eliminar la lista
+del nombres
+
