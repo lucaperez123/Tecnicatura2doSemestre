@@ -31,13 +31,13 @@ for(let contando = 0; contando <= 10; contando++){
 }
 console.log("Fin del ciclo for al encontrar el primer numero par");
 
-//palabra reservada continue
+//palabra reservada continue y Etiquetas Labels
+inicio:
 for(let contando = 0; contando <= 10; contando++){
     if(contando % 2 !== 0){
-        continue; // ir a la siguiente iteracion
+        break inicio; // ir a la siguiente iteracion
     }
     console.log(contando);
 }
 
 console.log("Fin del ciclo for al encontrar el primer numero par");
-
