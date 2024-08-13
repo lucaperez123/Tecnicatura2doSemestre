@@ -77,3 +77,16 @@ print(cocina[0:2])
 #Ejemplo
 verduras = ('papa',) # una tupla nesecita aunque sea de un elemento la coma
 # de lo contrario solo eria un tipo str cadena
+
+#Recorremos los elemento de la tupla
+for cocinar in cocina:#Print esta usando \n para saltos de lineas
+    print(cocinar, end=' ')  # usamos end= para eliminar los saltos de linea
+
+
+#NO ES BUENA PRACTICA ESTA CONVERSION DE TUPLA  A LISTA
+cocinaLista = list(cocina) # conversion de tupla a lista
+cocinaLista[0] = 'plato' # modificacion
+cocina = tuple(cocinaLista) # conversion de lista a tupla
+print('\n',cocina) 
+
+# del cocina esto elimina la tupla
