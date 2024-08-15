@@ -3,7 +3,7 @@ public class CicloWhile{
         var conteo = 0; // INFERENCIA DE TIPOS
         while(conteo<3){
             System.out.println("conteo = " + conteo);
-            conteo++; // vamos aumentando en uno la variable
+            conteo++;
 
 
         }
