@@ -7,7 +7,7 @@ let persona = {
     apellido: "Ruiz",
     email: "morenaruiz@gmail.com",
     edad: 22,
-    nombreCompleto: function(){ //metodo
+    nombreCompleto: function(){ //metodo o funcion en javascript
         return this.nombre+" "+this.apellido;
     }
 }
