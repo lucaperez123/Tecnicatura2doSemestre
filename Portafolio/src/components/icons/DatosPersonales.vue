@@ -1,8 +1,8 @@
 <script setup>
 const title = 'Luca Perez';
-const descripcion = ' Tenico  Universitario en Programación - UTN';
+const descripcion = ' Tecnico  Universitario en Programación - UTN';
 const residencia = 'San Rafael, Mendoza, Argentina';
-const presentacion = 'Hola, Bienvenido a  mi portafolio de proyectos. Soy  desarrollador web con experiencia en el desarrollo de aplicaciones web y movil';
+const presentacion = 'Hola, Bienvenido a  mi portafolio de proyectos. Soy  desarrollador BackEnd con experiencia en el Java , Python, Javascript ';
 const redesSociales = [
     { id: 1, name: 'Linkedin', src: '/src/assets/linkedin_icon.svg', url: '' },
     { id: 2, name: 'Instagram', src: '/src/assets/instagram_icon.svg', url: '' },

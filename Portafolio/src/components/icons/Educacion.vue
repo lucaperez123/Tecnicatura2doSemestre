@@ -27,8 +27,8 @@ import { ref } from 'vue'
 
 // Lista dinámica
 const timelineItems = ref([
-  { id: 1, fecha: '2024', titulo: 'Técnico Universitario en Programación', descripcion: 'Escuela Técnica 4-006 Pascual Iaccarini' },
-  { id: 2, fecha: '2023', titulo: 'Full stack', descripcion: 'Henry Bootcamp 700 horas de cursado teórico-práctico.' },
+  { id: 1, fecha: '2024', titulo: 'Técnico Universitario en Programación', descripcion: 'Escuela Técnica 4-124 Reynaldo Merin' },
+  { id: 2, fecha: '2023', titulo: 'Tecnicatura superior en desarrollo de software', descripcion: 'Ies 9-012 De informatica' },
   { id: 3, fecha: '2022', titulo: 'BlockChain Developer', descripcion: '700 horas de cursado teórico-práctico.' },
 ])
 
