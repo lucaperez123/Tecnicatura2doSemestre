@@ -4,9 +4,9 @@ const descripcion = ' Soy Técnico Universitario en Programación - UTN';
 const residencia = 'San Rafael, Mendoza, Argentina';
 const presentacion = 'Hola, Bienvenido a mi portafolio de proyectos. Soy  desarrollador web con experiencia en el desarrollo de aplicaciones web y movil';
 const redesSociales = [
-    { id: 1, name: 'Linkedin', src: '/src/assets/linkedin_icon.svg', url: '' },
+    { id: 1, name: 'Linkedin', src: '/src/assets/linkedin_icon.svg', url: 'https://www.linkedin.com/in/luca-mariano-perez-189a53248/' },
     { id: 2, name: 'Instagram', src: '/src/assets/instagram_icon.svg', url: '' },
-    { id: 3, name: 'Github', src: '/src/assets/github_icon.svg', url: '' },
+    { id: 3, name: 'Github', src: '/src/assets/github_icon.svg', url: 'https://github.com/lucaperez123' },
     { id: 4, name: 'Curriculum', src: '/src/assets/cv_resume_icon.svg', url: '' },
 ];
 const telefono = '+54 9 2604-820152';
@@ -23,7 +23,7 @@ const telefono = '+54 9 2604-820152';
         <a :href="red.url"><img class="icon-redsocial" :src="red.src" width="35rem" :alt="red.name"></a>
         </li>
         </ul>
-        <h3>nuestro Teléfono personal: {{ telefono }}</h3>
+        <h3>Mi Teléfono personal: {{ telefono }}</h3>
         <h4>{{ residencia }}</h4>
     </div>
 </section>
