@@ -244,3 +244,309 @@ Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo req
 
 Profesor Ariel Betancud
 
+### CLASE 05 MIÉRCOLES 11 DE SEPTIEMBRE DEL 2024 - Portafolio 5
+
+## Git tag y versiones en GitHub
+
+En Git, las etiquetas o **Git tags** tienen un papel importante al asignar versiones a los commits más significativos de un proyecto. Aprender a utilizar el comando `git tag`, entender los diferentes tipos de etiquetas, cómo crearlas, eliminarlas y compartirlas, es esencial para un flujo de trabajo eficiente.
+
+### Creación de etiquetas en Git
+
+```sh
+git tag
+
+Las etiquetas anotadas almacenan información adicional como la fecha, etiquetador y correo electrónico, y son ideales para publicaciones públicas. Las etiquetas ligeras son más simples y se emplean como “marcadores” de una confirmación específica.
+
+Esto mostrará una lista de las etiquetas existentes, como:
+
+    v1.0
+    v1.1
+    v1.2
+
+Para perfeccionar la lista, puedes utilizar opciones adicionales, como -l con una expresión comodín.
+Uso compartido de etiquetas
+
+Compartir etiquetas requiere un enfoque explícito al usar el comando git push. Por defecto, las etiquetas no se envían automáticamente. Para enviar etiquetas específicas, utiliza:
+git push origin <nombre-de-etiqueta>
+
+Para enviar varias etiquetas a la vez, usa:
+git push origin --tags
+
+Eliminación de etiquetas
+
+Para eliminar una etiqueta, usa el siguiente comando:
+git tag -d <nombre-de-etiqueta>
+
+
+Esto eliminará la etiqueta identificada en el repositorio local.
+
+En resumen, las etiquetas en Git son esenciales para asignar versiones y capturar instantáneas importantes en el historial de un proyecto. Aprender a crear, listar, compartir y eliminar etiquetas mejorará tu flujo de trabajo con Git.
+PORTAFOLIO
+
+Vamos a ver unos videos de cómo avanzar en lo que es un portafolio por el Tutor:
+
+Dante Nicolás Martínez
+
+Segundo Semestre Parte 5:
+
+    Video Capítulo 04
+    PDF
+
+Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo requerido por el Tutor Nico, ya sea tarea o investigación.
+
+Profesor Ariel Betancud
+
+### CLASE 06 MIÉRCOLES 18 DE SEPTIEMBRE DEL 2024 - Portafolio 6
+
+## Error con los tags
+
+### Investigación: ¿Qué pasa si por error cargamos un tag dos veces?
+
+¿Cómo solucionarías este problema o error?
+
+La respuesta debe ser enviada antes de las 23 horas por cada grupo. Deben enviar comandos y todos los pasos que harían frente a este conflicto.
+
+### PORTAFOLIO
+
+Vamos a ver unos videos de cómo avanzar en lo que es un portafolio por el Tutor:
+
+**Dante Nicolás Martínez**
+
+**Segundo Semestre Parte 6:**
+
+- Video Capítulo 05
+- PDF
+
+Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo requerido por el Tutor **Nico**, ya sea tarea o investigación.
+
+**Profesor Ariel Betancud**
+
+# CLASE 07 - MIÉRCOLES 25 DE SEPTIEMBRE DEL 2024
+
+## Portafolio 7
+
+### Error con los tags
+**Investigación:** Si un tag es imposible generarlo dos veces, ¿cómo es que existe el error de dos tags con el mismo nombre?
+
+#### ¿Cómo se origina este problema o error?
+
+La respuesta debe ser enviada antes de las **23 horas** por cada grupo. Deben enviar comandos y todos los pasos que harían frente a este conflicto.
+
+---
+
+## PORTAFOLIO
+
+Vamos a ver unos videos de cómo avanzar en el portafolio proporcionados por el tutor:
+
+### Tutor: Dante Nicolás Martinez
+
+#### Segundo Semestre Parte 6:
+
+- **Video:** Capítulo 06
+
+- **PDF:** Revisar y ejecutar cada comando. 
+
+Realizarlo como práctica y **no olvidar** hacer lo requerido por el tutor Nico, ya sea tarea o investigación.
+
+---
+
+### Profesor: Ariel Betancud
+
+
+# CLASE 08 - MIÉRCOLES 2 DE OCTUBRE DEL 2024
+
+## Portafolio 8
+
+### Manejo de ramas en GitHub
+
+Si no te funciona el comando `gitk`, es posible que no lo tengas instalado por defecto.
+Para instalar `gitk` debemos ejecutar los siguientes comandos:
+
+```sh
+  sudo apt-get update
+  sudo apt-get install gitk
+
+Repasa: ¿Qué es Git?
+
+Las ramas nos permiten hacer cambios a nuestros archivos sin modificar la versión principal (main). Puedes trabajar con ramas que nunca envías a GitHub, así como pueden haber ramas importantes en GitHub que nunca usas en el repositorio local. Lo crucial es que aprendas a manejarlas para trabajar profesionalmente.
+
+Si, estando en otra rama, modificamos los archivos y hacemos commit, tanto el historial (git log) como los archivos serán afectados. La ventaja que tiene usar ramas es que las modificaciones solo afectarán a esa rama en particular. Si luego de "guardar" los archivos (usando commit) nos movemos a otra rama (git checkout otraRama), veremos que las modificaciones de la rama pasada no aparecen en otraRama.
+Comandos para manejo de ramas en GitHub
+
+    Crear una rama:
+
+git branch branchName # Crear una rama
+git checkout branchName # Movernos a otra rama 
+git checkout -b nombre-de-la-rama # Crear una rama en el repositorio local
+git push origin nombre-de-la-rama # Publicar una rama local al repositorio remoto
+
+Recuerda que podemos ver gráficamente nuestro entorno y flujo de trabajo local con Git utilizando el comando gitk. Gitk fue el primer visor gráfico desarrollado para ver de manera gráfica el historial de un repositorio de Git.
+PORTAFOLIO
+
+Vamos a ver unos videos de cómo avanzar en el portafolio proporcionados por el tutor:
+Tutor: Dante Nicolás Martinez
+Segundo Semestre Parte 7:
+
+    Video: Capítulo 07
+
+    PDF: Revisar y ejecutar cada comando.
+
+Realizarlo como práctica y no olvidar hacer lo requerido por el tutor Nico, ya sea tarea o investigación.
+
+## CLASE 09
+
+**MIÉRCOLES 9 DE OCTUBRE DEL 2024 - Portafolio 9**
+
+### Tarea para antes de las 23 horas
+Investigar cómo se puede clonar un repositorio con el HTTPS del mismo, siendo ustedes los dueños del repositorio. Desde la nube quieren traer este repo a nuestro ordenador. Se les pedirá **Username** y **password**: ¿qué se debe hacer para lograr hacer cambios y así utilizar **pull**, **push**, y todo lo necesario para trabajar? Como referencia, solo usuario y contraseña no serán suficientes; esto cambió desde el año 2021 y ahora hay algo más para poder hacer esto y tener así acceso total.
+
+### Configurar múltiples colaboradores en un repositorio de GitHub
+Por defecto, cualquier persona puede clonar o descargar tu proyecto desde GitHub, pero no pueden crear commits ni ramas. Esto significa que pueden copiar tu proyecto, pero no colaborar con él. Si el repositorio es privado, es necesario que realmente estés haciendo una invitación; de lo contrario, no lo van a poder ver. Existen varias formas de solucionar esto para aceptar contribuciones. Una de ellas es añadir a cada persona de nuestro equipo como colaborador de nuestro repositorio.
+
+#### Cómo agregar colaboradores en GitHub
+1. Entrar a la configuración de colaboradores de nuestro proyecto:
+   - Repositorio > Settings > Collaborators
+2. Ahí, debemos añadir el email o username de los nuevos colaboradores.
+
+### Cambiar el mensaje del commit
+Si, como colaborador, agregaste erróneamente el mensaje del commit, lo puedes cambiar de la siguiente manera:
+```bash
+git commit --amend # Corregimos el mensaje
+git pull origin main # Traer el repositorio remoto
+git push --set-upstream origin main # Ejecutar el cambio, error arreglado
+
+Comienzo del colaborador
+
+    Abre git bash:
+
+    bash
+    cd Documentos # Abre git bash
+    mkdir class-git # Crea la carpeta o directorio de trabajo
+    ls -al # Revisa los archivos o directorios que tienes
+
+No debe hacer un git init, debe buscar el repositorio en el cual está invitado a participar en GitHub.
+Clona desde HTTPS, copia la URL:
+
+bash
+git clone url-copiada-github # Esto hace que clonemos el repositorio
+
+    No pide ni usuario ni contraseña si el repositorio es público.
+
+Realizando cambios
+
+    Abre Visual Studio Code y comienza con cambios:
+
+    bash
+    code . # Abre VSC y comienza con cambios
+    vim historia.txt # Vamos a escribir: Aquí está un nuevo colaborador
+
+Para modificar el mensaje del commit en Ubuntu:
+
+bash
+ctrl + x # Para salir de vim 
+s # Para un sí 
+enter # Terminado el mensaje del commit 
+
+En git bash window:
+
+bash
+esc # Presionamos esc después de terminar de escribir
+:wq! # Para salir del editor vim en Windows
+
+Comandos adicionales
+
+bash
+git status 
+git commit -am "Mi primer commit, estoy muy emocionado!!!" 
+git pull origin main 
+git fetch 
+git branch # Para ver las ramas que se trajo 
+git log # Para ver toda la historia 
+git log --graph # Vemos el gráfico de las diferentes ramas 
+git push origin main # Pedirá email y contraseña del colaborador 
+
+Problemas comunes y soluciones
+
+    Si se recibe un error denegado:
+        El dueño del repositorio no le dio acceso: el dueño debe agregar al colaborador.
+    Ir a settings del repositorio:
+        Agregar correo o nombre de usuario: el colaborador debe tener un email público.
+    Enviar un email con la URL; GitHub envía una notificación al usuario invitado.
+    El colaborador debe aceptar la invitación para tener acceso total.
+
+Reparto del trabajo entre colaboradores
+A partir de ahora, el dueño del repositorio y el colaborador deberán repartir el trabajo utilizando distintas ramas:
+
+    El dueño trabajará desde la rama header.
+    El colaborador desde la rama footer.
+    Al final, cuando se termine, se hará un merge para finalizar el proyecto.
+
+PORTAFOLIO
+Vamos a ver unos videos sobre cómo avanzar en lo que es un portafolio por el Tutor:
+
+    Dante Nicolás Martinez
+    Segundo Semestre Parte 8:
+        Video Capítulo 08
+
+PDF Revisar y ejecutar cada comando, hacerlo como práctica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación. Profesor Ariel Betancudull origin main
+
+# Clase 10 - Miércoles 16 de Octubre de 2024
+
+## Tema: Flujo de Trabajo Profesional - Merge de ramas de desarrollo a main
+
+En esta clase aprendimos a realizar merges de ramas de desarrollo hacia la rama `main` siguiendo un flujo de trabajo profesional, el cual es fundamental para el desarrollo de software colaborativo de manera ordenada y sin interrupciones.
+
+### Flujo de trabajo sugerido:
+
+1. Crear ramas para cada funcionalidad o tarea.
+2. Asignar una rama a cada desarrollador.
+3. El programador baja el repositorio con `git pull origin master`.
+4. El programador cambia a su rama con `git checkout #nombre_rama`.
+5. Trabaja en su rama, haciendo commits regularmente.
+6. Sube su trabajo al repositorio remoto con `git push origin #nombre_rama`.
+7. El encargado del proyecto baja, revisa y unifica los cambios mediante un merge hacia `main`.
+
+### Portafolio
+
+Además, trabajamos en la creación de un portafolio guiados por el tutor **Dante Nicolás Martinez**. Actualmente estamos en el segundo semestre, siguiendo la parte 8 del material.
+
+- **Video:** Capítulo 9
+- **Material adicional:** PDF con los comandos y flujo de trabajo para Git
+
+**Nota importante:** No olvidar revisar y ejecutar cada comando como práctica y realizar las tareas o investigaciones solicitadas por el tutor **Nico**.
+
+---
+
+
+**Profesor:** Ariel Betancud  
+**Tutor:** Dante Nicolás Martinez
+
+# Clase 11 - Miércoles 23 de Octubre de 2024
+
+## Tema: Flujo de Trabajo Profesional - Archivos Binarios
+
+En esta clase analizamos los problemas que pueden surgir al cargar archivos binarios, como imágenes, en un repositorio de GitHub. A continuación, se detallan las mejores prácticas aprendidas:
+
+### Problemas con los archivos binarios:
+
+- **Imágenes y otros archivos binarios**: Las imágenes, al ser archivos pesados, pueden causar problemas en el repositorio. Cada vez que hagamos cambios, el archivo binario será descargado nuevamente, aumentando el tamaño del repositorio y dificultando su manejo.
+  
+- **Malas prácticas**: Subir muchos binarios hará que el repositorio se vuelva pesado, lo cual no es recomendable en un flujo de trabajo profesional.
+
+- **Tamaño de los commits**: GitHub impone un límite de tamaño por commit de 100 MB. Si adjuntamos un archivo binario que exceda este límite, no podremos continuar realizando commits, ya que el archivo binario siempre será arrastrado, generando un problema.
+
+## Portafolio
+
+Además, continuamos con el avance del portafolio guiados por el tutor **Dante Nicolás Martinez**. Actualmente nos encontramos en el **Segundo Semestre - Parte 9**:
+
+- **Video:** Capítulo 10
+- **Material adicional:** PDF
+
+### Nota importante:
+No olvidar revisar y ejecutar cada comando como práctica. Es fundamental realizar las tareas o investigaciones solicitadas por el tutor **Nico**.
+
+---
+
+**Profesor:** Ariel Betancud  
+**Tutor:** Dante Nicolás Martinez
+
